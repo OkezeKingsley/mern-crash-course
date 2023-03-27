@@ -1,0 +1,1 @@
+//Note: the .env store our API key and don't publish it to the public when we publish our code
