@@ -48,8 +48,8 @@ app.get("/getUsers", (req, res) => {
  
 app.post("/createUser", async (req, res) => {
     //When making a post request, the server is expecting to receive a req from the client
-    //the data tat will be passed from the client will be stored in the req parameter and then
-    //we'd do req.body to get those data that was sent from the frontend. Thi will now be stored
+    //the data that will be passed from the client will be stored in the req parameter and then
+    //we'd do req.body to get those data that was sent from the frontend. This will now be stored
     //into a variable that will in turn be stored in the UserModel so as to create new user with it.
     //the .save() method is used to save the information to the database after the new user have been
     //created
